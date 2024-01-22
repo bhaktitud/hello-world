@@ -20,12 +20,14 @@ export default function Home() {
               </div>
             </div>
             <div className="flex-initial ml-6">
-            <Typical
-              steps={['Hello', 1000, 'Hello world!', 1000, `I'm Bhakti from Panorama ID`, 2000]}
-              loop={1}
-              wrapper="p"
-              className="font-mono text-2xl"
-            />
+              <p className="font-mono text-2xl">
+                <Typical
+                  steps={['Hello', 1000, 'Hello world!', 1000, `I'm Bhakti from Panorama ID`, 2000]}
+                  loop={1}
+                  wrapper="p"
+                  
+                />
+              </p>
               <div className="flex flex-row space-x-2 items-center">
                 <Image priority src={ManIcon} alt="man icon source" width={18} height={18} />
                 <p className="font-mono text-lg capitalize">tech enthusiast</p>
